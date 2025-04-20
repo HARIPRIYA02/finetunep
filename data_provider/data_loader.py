@@ -333,7 +333,7 @@ class Dataset_Custom_multi(Dataset):
         if flag == 'test':
             self.data_files = ['national_newsta.csv']
         else:
-            self.data_files = ['kansas_new1.csv','virginia_new1.csv','pennsylvania_new1.csv','alabama_new1.csv','south_carolina_new1.csv','national_newsta.csv']
+            self.data_files = ['national_newsta.csv','kansas_new1.csv','virginia_new1.csv','pennsylvania_new1.csv','alabama_new1.csv','south_carolina_new1.csv']
 
         self.data = []  # Stores processed data from all files
         self.cumulative_lengths = []  # Cumulative lengths for indexing across multiple files
