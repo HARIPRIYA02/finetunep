@@ -24,7 +24,7 @@ python -u run.py \
   --des 'Exp' \
   --n_heads 2 \
   --d_model 1024\
-  --d_ff 2048
+  --d_ff 2048 \
   --itr 1
 
 python -u run.py \
